@@ -1,0 +1,16 @@
+@import './normalize';
+
+//helpers
+@import './helpers/fonts';
+@import './helpers/variables';
+@import './helpers/base';
+
+//sections
+@import './sections/header';
+@import './sections/services';
+@import './sections/team';
+@import './sections/footer';
+
+//elememts
+@import './elements/navigation';
+@import './elements/form';

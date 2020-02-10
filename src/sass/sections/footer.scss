@@ -1,0 +1,23 @@
+.footer {
+  .container {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid $color-fourth;
+  }
+
+  &__text {
+    font-family: $font-primary;
+    font-weight: 400;
+    font-size: 14px;
+    color: $color-text-main;
+  }
+
+  &__template-link {
+    font-family: $font-primary;
+    font-weight: 400;
+    font-size: 14px;
+    color: $color-main;
+  }
+}

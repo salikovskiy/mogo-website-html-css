@@ -1,0 +1,79 @@
+.services {
+  padding-top: 90px;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+
+    &-title {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #333333;
+      margin-bottom: 18px;
+    }
+
+    &-description {
+      font-family: 'Roboto', sans-serif;
+      font-size: 15px;
+      line-height: 24px;
+      color: #999999;
+    }
+
+    &-item {
+      position: relative;
+      width: 380px;
+      margin-bottom: 90px;
+      background-repeat: no-repeat;
+      background-position: top left 20px;
+      padding-left: 100px;
+      padding-right: 20px;
+
+      &:nth-child(3n) {
+        padding-right: 0;
+      }
+
+      &::before {
+        content: '';
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        left: 28px;
+        top: 0;
+      }
+    }
+  }
+}
+
+.icon {
+  &-1::before {
+    background-image: url(../images/clock.svg);
+    background-repeat: no-repeat;
+  }
+
+  &-2::before {
+    background-image: url(../images/line-graph.svg);
+    background-repeat: no-repeat;
+  }
+
+  &-3::before {
+    background-image: url(../images/computer.svg);
+    background-repeat: no-repeat;
+  }
+
+  &-4::before {
+    background-image: url(../images/book.svg);
+    background-repeat: no-repeat;
+  }
+
+  &-5::before {
+    background-image: url(../images/home.svg);
+    background-repeat: no-repeat;
+  }
+
+  &-6::before {
+    background-image: url(../images/image.svg);
+    background-repeat: no-repeat;
+  }
+}
